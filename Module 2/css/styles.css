@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 2px;
+    font-family: "Verdana", "Arial", "Helvetica";
+    font-size: 18px;
+    margin-left:10px;
+    margin-right:10px;
+    color: rgb(3, 61, 53);
+    
+}
+
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #032520;
+  font-size: 50px;
+}
+
+
+.box{
+  width: 100%;
+  /*overflow: none;*/
+}
+
+
+.content-name{
+  overflow: none;
+  text-align: center;
+  border: 4px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  float: right;
+  margin-right: 32px;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+}
+
+.content{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 3.5%;
+  color: rgb(3, 46, 37);
+  font-size: 18px; 
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-top: 40px;
+  background-color: #ccc; 
+}
+
+.name1{
+  background-color: #d89aa3;
+  padding: 5px;
+}
+
+.name2{
+  color: white;
+  background-color: #d16262;
+}
+.name3{
+  background-color: #f0ddab;
+}
+
+
+/********** Large Device Responsive Layout **********/
+
+@media (min-width: 992px) {
+  .md4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium Device Responsive Layout **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .md6,.md12 {
+    /*float: left;*/
+    float:right;
+    /*padding-left padding-right: 150px;*/
+
+  }
+  .md6 {
+    width: 50%;
+  }
+  .md12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+/********** Medium Device Responsive Layout **********/
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .sm12 {
+  	float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+}
