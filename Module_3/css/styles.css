@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+body {
+  font-size: 20px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color: #cf4e2e;
+  font-family: 'Red+Rose', Tahoma, Verdana, sans-serif
+}
+
+#header-nav {
+  background-color: #770664;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
+}
+
+h1 {
+  color:#cf4e2e;
+}
+
+h2 {
+  color:#770664;
+}
+
+.navbar-brand h1 {
+  font-family: 'Red+Rose', Tahoma, Verdana, sans-serif
+  /*color: rgba(34, 33, 33, 0.884);*/
+  color: #fff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #cf4e2e;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: #e6d6d2;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #cf4e2e;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: 2500px;
+  padding: 20px 40px 20px 40px;
+  background-color: #e6d6d2;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
