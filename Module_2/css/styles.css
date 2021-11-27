@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
+section {
+	border: 3px solid rgba(2, 39, 16, 0.89);
+	background-color: #aaa;
+	margin: 15px 15px 15px 15px;
+}
+
+p.title {
+	float: right;
+	font-size: 125%;
+	font-weight: bold;
+	box-sizing: content-box;
+	border: 1px solid rgba(2, 39, 16, 0.89);
+	text-align: center;
+	padding: 2px 30px 2px 30px;
+	margin: 0px 0px 0px 0px;
+	width: 70px;
+}
+
+#chicken {
+	background-color:#d89aa3;
+}
+
+#beef {
+	background-color: #d16262;
+	color: white;
+}
+
+#sushi {
+	background-color: #f0ddab;
+}
+
+p.text {
+	clear: right;
+	padding: 5px 5px 5px 5px;
+	margin: 15px 15px 15px 15px;
+}
+
+/********** Desktop Responsive Layout (LG) **********/
+@media (min-width: 992px){
+	.lg4 {
+		float: left;
+		width: 33%;
+	}
+}
+
+/********** Tablet Responsive Layout (MD) **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.md6, .md12{
+		float: left;
+	}
+	
+	.md6 {
+		width: 50%;
+	}
+	
+	.md12 {
+		width: 100%;
+	}
+}
+
+/********** Mobile Responsive Layout (SM) **********/
+@media (max-width: 767px){
+	.sm12 {
+		float: left;
+		width: 100%;
+	}
+}
